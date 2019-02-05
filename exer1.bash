@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Shell Scripting id Fun!"
+echo "Shell Scripting is Fun!"
