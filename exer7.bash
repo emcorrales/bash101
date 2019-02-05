@@ -8,7 +8,7 @@
 FILE=$1
 
 if [ ! -e $FILE ]; then
-  echo "File does not exist!"
+  echo "File $FILE does not exist!"
 else
   if [ -f $FILE ]; then
     TYPE="regular"

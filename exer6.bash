@@ -10,7 +10,7 @@
 read -p "Please enter the path of a file or directory: "  FILE
 
 if [ ! -e $FILE ]; then
-  echo "File does not exist!"
+  echo "File $FILE does not exist!"
 else
   if [ -f $FILE ]; then
     TYPE="regular"
