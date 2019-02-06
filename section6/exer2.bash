@@ -25,6 +25,8 @@ DEFAULT_PREFIX=$(date +"%Y %m %d")
 
 # shopt -s nullglob
 read -p "Please enter a file extension: " ext
+[ -z $ext ] && echo "Please enter an extension." && exit 1
+
 read -p "Please enter a file prefix: (Press enter for $DEFAULT_PREFIX). " prefix
 
 if [ -z $prefix ]; then
