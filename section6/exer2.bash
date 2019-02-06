@@ -21,6 +21,7 @@
 # Please enter a file extension: jpg
 # Please enter a file prefix: (Press ENTER for 2015­08­10).
 # Renaming mycat.jpg to 2015­08­10­mycat.jpg.
+
 DEFAULT_PREFIX=$(date +"%Y %m %d")
 
 # shopt -s nullglob
