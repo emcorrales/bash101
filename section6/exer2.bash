@@ -29,10 +29,7 @@ read -p "Please enter a file extension: " ext
 [ -z $ext ] && echo "Please enter an extension." && exit 1
 
 read -p "Please enter a file prefix: (Press enter for $DEFAULT_PREFIX). " prefix
-
-if [ -z $prefix ]; then
-  prefix=$DEFAULT_PREFIX
-fi
+[ -z $prefix ] && prefix=$DEFAULT_PREFIX
 
 for file in *.$ext; do
   echo "Renaming $file to $prefix $file."
