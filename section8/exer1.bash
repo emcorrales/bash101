@@ -7,5 +7,4 @@
 # and the "info" facility for your messages.
 #
 # Hint: Use $RANDOM
-echo $RANDOM
-logger -p user.info $RANDOM
+logger -s -p user.info $RANDOM
